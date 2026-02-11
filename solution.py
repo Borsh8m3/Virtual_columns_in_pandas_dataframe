@@ -1,6 +1,13 @@
 import pandas
 import re
 
+"""
+    Recruitment project for Junior Data Engineer role
+    Author: Dawid Boratyński
+    Date: 2026-02-11
+    Chcek out my another projects on Website: https://bit.ly/dawidboratynski
+"""
+
 def add_virtual_column(df: pandas.DataFrame, rule: str, new_column: str) -> pandas.DataFrame:
     
     rule = rule.strip()
